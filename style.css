@@ -166,6 +166,9 @@ body {
     font-family:'Inter',sans-serif;
 
 }
+.wrapper{
+  overflow: hidden;
+}
 
 
 
@@ -207,18 +210,13 @@ body {
 }
 
 .logo {
-  font-size: 26px;
-  font-weight: bold;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+   max-width: 50px;
 }
 
-.logo span {
-  color: #2A86FF;
-}
 
+.logo img{
+   border-radius: 50%;
+}
 
 .nav ul {
   display: flex;
@@ -1134,6 +1132,7 @@ body {
   color: #ccc;
   margin-bottom: 12px;
   line-height: 1.6;
+  margin-top: 10px;
 }
 
 .footer-age {
@@ -1199,9 +1198,9 @@ body {
 }
 
 .footer-icons img {
-  height: 50px;
+  height: 80px;
   max-width: 140px;
-  object-fit: contain;
+  object-fit: cover;
   filter: brightness(1.2);
   border-radius: 5px;
 }
@@ -1223,7 +1222,7 @@ body {
   }
 
   .footer-icons img {
-    height: 26px;
+    height: 70px;
   }
 }
 

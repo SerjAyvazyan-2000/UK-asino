@@ -71,7 +71,6 @@ const revealOnScroll = () => {
   });
 };
 
-// 🔄 Attach listeners
 window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('load', revealOnScroll);
 
